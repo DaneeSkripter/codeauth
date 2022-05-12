@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <title>Use code</title>
+        <style>
+            body {
+    background: rgb(63,94,251);
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    padding-top: 23%;
+    text-align: center;
+}
+
+input[type=text] {
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+
+input[type=submit] {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid whitesmoke;
+    border-radius: 12px;
+    padding: 12px 36px;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    background-color: whitesmoke;
+    transition-duration: 0.4s;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(45, 204, 31);
+    border: 2px solid rgb(45, 204, 31);
+}
+        </style>
+    </head>
+    <body>
+        <h1 class="title">Create code</h1>
+        <div class="form">
+        <form action="/createcode/" method="post">
+            <label id="code" class="title">Code:</label>
+            <input id="code" type="text" name="code" value="">
+            <label id="page" class="title">Page:</label>
+            <input id="page" type="text" name="page" value="">
+            <input type="submit" value="Create Code">
+        </form>
+    </div>
+    </body>
+</html>

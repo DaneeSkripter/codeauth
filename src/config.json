@@ -1,4 +1,6 @@
 {
     "port" : 4000,
-    "mongoose_url": ""
+    "mongoose_url": "",
+     "create_code": "",
+     "del_code": ""
 }
