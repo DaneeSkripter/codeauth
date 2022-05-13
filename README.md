@@ -8,4 +8,4 @@
 3) Fill config.json
 4) ```node app.js```
 ## Images
-![](https://clickimg.xyz/img/odONv.png)
+![](https://clickimg.xyz/img/oAder.png)
